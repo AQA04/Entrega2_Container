@@ -1,0 +1,60 @@
+<!-- --------------------Segundo intento-------------------- --> 
+    <h2>Segundo intento</h2>
+
+    <!--Un superPadre encargado de agrupar a todos--> 
+    <div id="superPadre">
+
+        <!--Padre de A y contenedor A-->
+        <div id="padreA">
+            <div class="cajaA">A</div>
+        </div> 
+        
+        <!--Padre de B-F,  y contenedor B-F-->
+        <div id="padreBF">
+            <div class="cajaB">B</div>
+            <div class="cajaF">F</div>
+        </div>
+
+        <!--Padre de C-D-E y contenedor C-D-E-->
+        <div id="padreCDE">
+            <div class="cajaCDE">C</div>
+            <div class="cajaCDE">D</div>
+            <div class="cajaCDE">E</div>
+        </div>
+    </div>
+
+
+/*/////////////////////////////////////////////////////////////////*/
+/*Segundo intento*/
+
+/*--------------------padres--------------------*/
+
+
+#padreBF{
+    width: 98%;
+    height: 30%;
+
+    background-color:rgb(190, 190, 193);
+    border-radius: 5px;
+
+
+    margin:1%;
+    align-content: center;
+    display: flex;
+
+}
+
+#padreCDE{
+    width: 75%;
+    height: 30%;
+
+    background-color:rgb(190, 190, 193);
+    border-radius: 5px;
+
+
+    margin:1%;
+    align-content: center;
+    display: flex;
+
+}
+

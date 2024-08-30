@@ -1,0 +1,153 @@
+
+/*--------------------Primer intento--------------------*/
+/*Se crea el superpadre*/
+#superPadre{    
+    width: 98%;
+    height: 600px;
+
+    background-color: rgb(223, 223, 225);
+    border-radius: 20px;
+    font-size: 30;
+    font-family: 'Times New Roman', Times, serif;
+
+    margin:1%;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+/*--------------------padres--------------------*/
+#padreA{
+    width: 98%;
+    height: 30%;
+
+    background-color:rgb(190, 190, 193);
+    border-radius: 5px;
+
+
+    margin:1%;
+    align-content: center;
+
+
+}
+
+#padreB-F{
+    width: 98%;
+    height: 60%;
+
+    background-color:rgb(190, 190, 193);
+    border-radius: 5px;
+
+
+    margin:1%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    
+}
+#padreB-E{
+    width: 70%;
+    height: 90%;
+
+    background-color:rgb(128, 128, 133);
+    border-radius: 5px;
+
+
+    margin:1%;
+    align-content: center;
+
+}
+
+#padreB{
+    width: 98%;
+    height: 40%;
+
+    background-color:rgb(128, 128, 133);
+    border-radius: 5px;
+
+
+    margin:1%;
+    align-content: center;
+    display: flex;
+}
+
+#padreCDE {
+    width: 97%;
+    height: 40%;
+
+    background-color:rgb(128, 128, 133);
+    border-radius: 5px;
+
+
+    margin:1%;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#padreF{
+    width: 30%;
+    height: 90%;
+
+    background-color:rgb(128, 128, 133);
+    border-radius: 5px;
+
+
+    margin:1%;
+    align-content: center;
+}
+
+/*--------------------Cajas--------------------*/
+
+.cajaA{
+    width: 98%;
+    height: 100%;
+
+    background-color:rgb(1, 1, 66);
+    border-radius: 5px;
+    color:white;
+
+    margin:1%;
+    align-content: center;
+}
+
+
+
+.cajaB{
+    width: 98%;
+    height: 100%;
+
+    background-color:rgb(1, 1, 66);
+    border-radius: 5px;
+    color:white;
+
+    margin-left:1%;
+    align-content: center;
+}
+
+/*Como las 3 cajas son iguales, puede usar los mismos atributos*/
+
+.cajaCDE{
+    width: 30%;
+    height: 100%;
+
+    background-color:rgb(1, 1, 66);
+    border-radius: 5px;
+    color:white;
+
+    margin-left:1%;
+    align-content: center;
+    
+}
+
+.cajaF{
+    width: 98%;
+    height: 100%;
+
+    background-color:rgb(1, 1, 66);
+    border-radius: 5px;
+    color:white;
+
+    margin-left:1%;
+    align-content: center;
+}
+
